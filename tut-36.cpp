@@ -1,0 +1,1 @@
+// Inheritance & Its Different types. C++
