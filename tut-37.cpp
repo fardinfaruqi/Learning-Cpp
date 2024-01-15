@@ -1,8 +1,16 @@
-/* Derived Class syntax
+/*
+Derived Class syntax:
 class {{derived-class-name}} : {{visibility-mode}} {{base-class-name}}
 {
     class members/methods/etc...
-} */
+}
+
+Note:
+--> Default visibility mode is private
+--> Public Visibility Mode: Public members of the base class becomes Public members of the derived class
+--> Private Visibility Mode: Public members of the base class become private members of the derived class
+--> Private members are never inherited
+*/
 
 #include <iostream>
 using namespace std;
