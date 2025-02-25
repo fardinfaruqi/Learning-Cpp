@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define mod 1e9 + 7
+typedef long long int ll;
+#define nl '\n'
+map<string, ll> freq;
+
+void solve() {
+    string s;
+    cin >> s;
+    ll x = freq[s]++;
+    if (x > 0) cout << s << x << nl;
+    else cout << "OK" << nl;
+    return;
+}
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    ll t; cin >> t;
+    while (t--) { solve(); }
+    return 0;
+}
